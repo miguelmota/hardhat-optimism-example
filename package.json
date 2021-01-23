@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && hardhat compile --network optimism",
+    "deploy": "hardhat run scripts/Greeter.deploy.js --network optimism",
+    "lint": "prettier-standard --format",
+    "clean": "rimraf cache artifacts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@eth-optimism/plugins": "0.0.4",
+    "dotenv": "8.2.0",
+    "hardhat": "2.0.8",
+    "prettier-standard": "16.4.1",
+    "rimraf": "3.0.2"
+  }
+}
