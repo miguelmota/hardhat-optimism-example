@@ -17,6 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "@eth-optimism/plugins": "0.0.4",
+    "@nomiclabs/hardhat-ethers": "2.0.1",
     "dotenv": "8.2.0",
     "hardhat": "2.0.8",
     "prettier-standard": "16.4.1",
